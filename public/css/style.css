@@ -1,0 +1,63 @@
+.main {
+    height: 100vh;
+}
+
+.sidebar {
+    background: rgb(37, 36, 36);
+    color: white;
+}
+
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+
+.sidebar a:hover {
+    background: rgb(75, 71, 71);
+}
+
+.active {
+    background: rgb(15, 15, 15);
+    border-right: solid 7px rgb(0, 248, 41)
+}
+
+.card-data{
+ border: solid 1px;
+ /* background-color: rgb(93, 199, 90); */
+ padding: 20px 30px;
+ color: #fff;
+}
+
+.card-data.buku{
+    background-color:  rgb(93, 199, 90);
+}
+
+.card-data.kategori{
+    background-color:  rgb(67, 223, 210);
+}
+
+.card-data.pengguna{
+    background-color:  rgb(106, 160, 231);
+}
+
+.card-data.penulis{
+    background-color:  rgb(231, 141, 106);
+}
+
+.card-data.penerbit{
+    background-color:  rgb(163, 91, 223);
+}
+.card-data i{
+    font-size: 80px;
+}
+
+.desc-book{
+    font-size: 30px;
+}
+
+.count-book{
+    font-size: 28px;
+}
